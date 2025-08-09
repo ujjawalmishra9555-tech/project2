@@ -1,0 +1,78 @@
+#mainbox{
+    height: 210px;
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 21px;
+    margin-left: 21px;
+    padding-left: 16px;
+    padding-top: 18px;
+     animation: rgbBorder 2s linear infinite;
+    /* animation: rgbmove 1s linear infinite; */
+
+    background: linear-gradient(270deg,rgb(140, 136, 136),rgb(223, 205, 171),rgb(234, 181, 121),rgb(147, 207, 147),rgb(138, 138, 209),rgb(138, 101, 164),rgb(184, 130, 130));
+
+}
+
+
+img{
+    height: 189px;
+    width: 150px;
+    border:1px solid rgb(225, 0, 0);
+    border-radius: 12px;
+
+     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    box-shadow: 5px 5px 70px rgb(0, 0, 0) inset;
+    background: white;
+     animation: rgbBorder 2s linear infinite;
+     /* animation: rgbmove 1s linear infinite;  */
+    padding: 5px;
+    background: linear-gradient(270deg,rgb(140, 136, 136),rgb(223, 205, 171),rgb(234, 181, 121),rgb(147, 207, 147),rgb(138, 138, 209),rgb(138, 101, 164),rgb(184, 130, 130));
+}
+
+@keyframes rgbBorder {
+    0%{border-color: red;box-shadow: 3px 6px 100px rgb(255, 128, 0) ;}
+    25%{border-color: orange;box-shadow: 5px 6px 100px rgb(238, 255, 1);}
+    50%{border-color: green;box-shadow: 5px 6px 100px rgb(153, 255, 0) ;}
+    75%{border-color: blue;box-shadow: 5px 6px 100px rgb(0, 255, 179);}
+    80%{border-color: aqua;box-shadow: 5px 6px 100px rgb(81, 0, 255);}
+    100%{border-color: red;box-shadow: 5px 6px 100px rgb(255, 0, 200);}
+}
+
+/* @keyframes rgbmove {
+    0% {background-position: 0%;}
+    30% {background-position: 30%;}
+    50% {background-position: 50%;}
+    75% {background-position: 75%;}
+    100%{background-position: 100%;}
+} */
+
+#btn1:hover{
+    font-size: 17px;
+    box-shadow: 2px 2px 12px inset rgb(3, 80, 75);
+    transition: 2s;
+}
+#num{
+    width: 62px;
+    margin-left: 6px;
+    margin-right: 16px;
+    margin-top: 15px;
+}
+/* #box{
+   
+    border: 2px solid blue;
+   
+} */
+#img1{
+
+     width: 150px;
+    height: 152px;
+    border-radius: 12px;
+    border: 1px solid black;
+      /* animation: rgbBorder 2s linear infinite; */
+ object-fit: contain;
+
+}
